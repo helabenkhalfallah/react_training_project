@@ -20,7 +20,7 @@ module.exports = {
     ],
     "rules": {
         "linebreak-style": 0,
-        "react/jsx-filename-extension": [1, { "extensions": ["App.js", "index.js", ".jsx"] }],
+        "react/jsx-filename-extension": [1, { "extensions": ["App.js", "routes.js","index.js", ".jsx"] }],
         "indent": [
             2,
             2,

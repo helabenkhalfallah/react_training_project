@@ -76,5 +76,11 @@ yarn add eslint-config-airbnb-base eslint-loader eslint-plugin-flowtype --dev
 4. this will create .eslintrc.js file
 5. add this configure to .eslintrc
 6. enable on VS settings "eslint.autoFixOnSave": true, for auto fix lint error.
+7. add semantic-ui
+yarn add semantic-ui-react
+yarn add semantic-ui-css
+Index.js :
+import 'semantic-ui-css/semantic.min.css';
+
 
 
