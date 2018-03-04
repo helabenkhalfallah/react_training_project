@@ -1,37 +1,59 @@
 I. Project Presentation : quotes social media
 
 User share an categorized quote and other users can comment on that quote.
-We can filter quotes by mood or by categorie.
+We can filter quotes by author or by mood or by category.
+We can order quotes by author name or by date (desc & asc).
+We can show quote author profile.
+We can show quote user profile.
 
 User :
 id
 first name
 last name
 photo url
-quotes[]
+quote_ids
 
 Quote:
-quote id
-user id
-title
+id
+author_id
 description
 date
 photo url
-mood
-categorie
-comments []
+mood_id
+category_id
+comment_ids
+
+Author
+id
+first name
+last name
+birthday
+description
 
 Comment :
-quote id 
-comment id
+id
 text
 date
-appreciation 
+appreciation_id
 
+Mood
+id
+mood name
+mood picto
 
-mood : happy, sad, crying, smile.
-categorie : work, motivation, inspiration, art, science, ...
-appreciation : excellent, good, medium, not bad, bad.
+Category
+id
+category name
+category description
+
+Appreciation
+appreciation id
+appreciation name
+appreciation picto
+
+mood : angry, cry, love, sad, smile, happy.
+category : work, motivation, inspiration, art, science, programming ...
+appreciation : excellent, good, not bad, bad.
 
 II. Technologies :
 
