@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+
+// globale css
+import '../app-semantic-ui-theme/semantic.less';
 
 class App extends Component {
   componentDidMount() { }

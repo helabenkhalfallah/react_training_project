@@ -1,11 +1,9 @@
-import * as fs from 'fs';
-
-// const fs = require('fs');
+const fs = require('fs');
 
 // relocate default config
 fs.writeFileSync(
   'node_modules/semantic-ui-less/theme.config',
-  '@import \'../../src/semantic/theme.config\';\n',
+  '@import \'../../app-semantic-ui-theme/theme.config\';\n',
   'utf8',
 );
 
