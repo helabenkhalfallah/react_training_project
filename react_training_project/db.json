@@ -1,231 +1,139 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "first_name": "Hela",
-      "last_name": "ben khalfallah",
-      "photo_url": "https://avatars0.githubusercontent.com/u/1331451?s=460&v=4",
-      "quote_ids": [
-        1,
-        2,
-        5,
-        6
-      ]
-    },
-    {
-      "id": 1,
-      "first_name": "Ismail",
-      "last_name": "Ben Hamouda",
-      "photo_url": "https://scontent.ftun3-1.fna.fbcdn.net/v/t1.0-9/14484874_1111876692252663_1014696715518804193_n.jpg?oh=94797f67f0b75665dafd97d12aea3e03&oe=5B091852",
-      "quote_ids": [
-        3,
-        4
-      ]
-    }
-  ],
-  "quotes": [
-    {
-      "id": 1,
-      "date": "01/03/2018",
-      "author_id": 3,
-      "description": "Genius is one percent inspiration and ninety-nine percent perspiration.",
-      "photo_url": "https://i.ytimg.com/vi/YQmAh82ut1E/maxresdefault.jpg",
-      "mood_id": 1,
-      "category_id": 1,
-      "comment_ids": []
-    },
-    {
-      "id": 2,
-      "date": "02/03/2018",
-      "author_id": 4,
-      "description": "You can observe a lot just by watching.",
-      "photo_url": "https://usatftw.files.wordpress.com/2015/09/cxx_yogi_1955_getty_12.jpg?w=1000&h=600&crop=1",
-      "mood_id": 2,
-      "category_id": 2,
-      "comment_ids": []
-    },
-    {
-      "id": 3,
-      "date": "03/03/2018",
-      "author_id": 5,
-      "description": "Trust yourself. You know more than you think you do.",
-      "photo_url": "https://images-na.ssl-images-amazon.com/images/I/415EcmERKjL._UX250_.jpg",
-      "mood_id": 3,
-      "category_id": 3,
-      "comment_ids": []
-    },
-    {
-      "id": 4,
-      "date": "04/03/2018",
-      "author": 2,
-      "description": "From error to error one discovers the entire truth.",
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sigmund_Freud_LIFE.jpg/220px-Sigmund_Freud_LIFE.jpg",
-      "mood_id": 4,
-      "category_id": 4,
-      "comment_ids": []
-    },
-    {
-      "id": 5,
-      "date": "05/03/2018",
-      "author_id": 1,
-      "description": "Learn from yesterday, live for today, hope for tomorrow.",
-      "photo_url": "http://www.publicdomainpictures.net/pictures/230000/velka/albert-einstein-1505932669R3h.jpg",
-      "mood_id": 5,
-      "category_id": 5,
-      "comment_ids": []
-    },
-    {
-      "id": 6,
-      "date": "05/03/2018",
-      "author_id": 1,
-      "description": "I never think of the future. It comes soon enough.",
-      "photo_url": "http://www.publicdomainpictures.net/pictures/230000/velka/albert-einstein-1505932669R3h.jpg",
-      "mood_id": 6,
-      "category_id": 5,
-      "comment_ids": []
-    }
-  ],
-  "authors": [
-    {
-      "id": 1,
-      "first_name": "Albert",
-      "last_name": "Einstein",
-      "photo_url": "http://www.publicdomainpictures.net/pictures/230000/velka/albert-einstein-1505932669R3h.jpg"
-    },
-    {
-      "id": 2,
-      "first_name": "Freud",
-      "last_name": "Sigmund",
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sigmund_Freud_LIFE.jpg/220px-Sigmund_Freud_LIFE.jpg"
-    },
-    {
-      "id": 3,
-      "first_name": "Thomas",
-      "last_name": "Edison",
-      "photo_url": "https://i.ytimg.com/vi/YQmAh82ut1E/maxresdefault.jpg",
-    },
-    {
-      "id": 4,
-      "first_name": "Yogi",
-      "last_name": "Berra",
-      "photo_url": "https://usatftw.files.wordpress.com/2015/09/cxx_yogi_1955_getty_12.jpg?w=1000&h=600&crop=1",
-    },
-    {
-      "id": 5,
-      "first_name": "Benjamin",
-      "last_name": "Spock",
-      "photo_url": "https://images-na.ssl-images-amazon.com/images/I/415EcmERKjL._UX250_.jpg",
-    }
-  ],
-  "moods": [
-    {
-      "id": 1,
-      "mood_name": "angry",
-      "mood_picto": "./assets/images/angry.png"
-    },
-    {
-      "id": 2,
-      "mood_name": "cry",
-      "mood_picto": "./assets/images/crying.png"
-    },
-    {
-      "id": 3,
-      "mood_name": "love",
-      "mood_picto": "./assets/images/love.png"
-    },
-    {
-      "id": 4,
-      "mood_name": "sad",
-      "mood_picto": "./assets/images/sad.png"
-    },
-    {
-      "id": 5,
-      "mood_name": "smile",
-      "mood_picto": "./assets/images/smile.png"
-    },
-    {
-      "id": 6,
-      "mood_name": "happy",
-      "mood_picto": "./assets/images/happy.png"
-    }
-  ],
-  "categories": [
-    {
-      "id": 1,
-      "category_name": "04/03/2018",
-      "category_description": "some comment"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "date": "01/03/2018",
-      "text": "some comment 1",
-      "appreciation_id": 1
-    },
-    {
-      "id": 2,
-      "date": "02/03/2018",
-      "text": "some comment 2",
-      "appreciation_id": 1
-    },
-    {
-      "id": 3,
-      "date": "01/03/2018",
-      "text": "some comment 3",
-      "appreciation_id": 2
-    },
-    {
-      "id": 4,
-      "date": "02/02/2018",
-      "text": "some comment 4",
-      "appreciation_id": 2
-    },
-    {
-      "id": 5,
-      "date": "04/02/2018",
-      "text": "some comment 5",
-      "appreciation_id": 3
-    },
-    {
-      "id": 6,
-      "date": "05/03/2018",
-      "text": "some comment 6",
-      "appreciation_id": 4
-    },
-    {
-      "id": 7,
-      "date": "06/02/2018",
-      "text": "some comment 7",
-      "appreciation_id": 3
-    },
-    {
-      "id": 8,
-      "date": "07/02/2018",
-      "text": "some comment 8",
-      "appreciation_id": 4
-    }
-  ],
-  "appreciations": [
-    {
-      "id": 1,
-      "appreciation_name": "excellent",
-      "appreciation_picto": "./assets/images/excellent.png"
-    },
-    {
-      "id": 2,
-      "appreciation_name": "good",
-      "appreciation_picto": "./assets/images/good.png"
-    },
-    {
-      "id": 3,
-      "appreciation_name": "not bad",
-      "appreciation_picto": "./assets/images/not-bad.png"
-    },
-    {
-      "id": 4,
-      "appreciation_name": "bad",
-      "appreciation_picto": "./assets/images/bad.png"
-    }
-  ]
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "first_name": "Hela",
+        "last_name": "ben khalfallah",
+        "photo_url": "https://avatars0.githubusercontent.com/u/1331451?s=460&v=4",
+        "quote_ids": [
+          1,
+          2,
+          5,
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "first_name": "Ismail",
+        "last_name": "Ben Hamouda",
+        "photo_url": "https://scontent.ftun3-1.fna.fbcdn.net/v/t1.0-9/14484874_1111876692252663_1014696715518804193_n.jpg?oh=94797f67f0b75665dafd97d12aea3e03&oe=5B091852",
+        "quote_ids": [
+          3,
+          4
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "id": 1,
+        "date": "01/03/2018",
+        "author": "Thomas Edison",
+        "description": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+        "photo_url": "https://i.ytimg.com/vi/YQmAh82ut1E/maxresdefault.jpg",
+        "mood_id": 1,
+        "category_id": 1,
+        "comment_ids": []
+      },
+      {
+        "id": 2,
+        "date": "02/03/2018",
+        "author": "Yogi Berra",
+        "description": "You can observe a lot just by watching.",
+        "photo_url": "https://usatftw.files.wordpress.com/2015/09/cxx_yogi_1955_getty_12.jpg?w=1000&h=600&crop=1",
+        "mood_id": 1,
+        "category_id": 2,
+        "comment_ids": []
+      },
+      {
+        "id": 3,
+        "date": "03/03/2018",
+        "author": "Benjamin Spock",
+        "description": "Trust yourself. You know more than you think you do.",
+        "photo_url": "https://images-na.ssl-images-amazon.com/images/I/415EcmERKjL._UX250_.jpg",
+        "mood_id": 2,
+        "category_id": 3,
+        "comment_ids": []
+      },
+      {
+        "id": 4,
+        "date": "04/03/2018",
+        "author": 2,
+        "description": "From error to error one discovers the entire truth.",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sigmund_Freud_LIFE.jpg/220px-Sigmund_Freud_LIFE.jpg",
+        "mood_id": 3,
+        "category_id": 4,
+        "comment_ids": []
+      },
+      {
+        "id": 5,
+        "date": "05/03/2018",
+        "author_id": 1,
+        "description": "Learn from yesterday, live for today, hope for tomorrow.",
+        "photo_url": "http://www.publicdomainpictures.net/pictures/230000/velka/albert-einstein-1505932669R3h.jpg",
+        "mood_id": 3,
+        "category_id": 5,
+        "comment_ids": []
+      },
+      {
+        "id": 6,
+        "date": "05/03/2018",
+        "author_id": 1,
+        "description": "I never think of the future. It comes soon enough.",
+        "photo_url": "http://www.publicdomainpictures.net/pictures/230000/velka/albert-einstein-1505932669R3h.jpg",
+        "mood_id": 3,
+        "category_id": 5,
+        "comment_ids": []
+      },
+      {
+        "operationName": "QuoteListQuery",
+        "variables": {},
+        "query": "query QuoteListQuery {\n  quotes {\n    id\n    date\n    author\n    description\n    photo_url\n    mood_id\n    category_id\n    comment_ids\n    __typename\n  }\n}\n",
+        "id": 7
+      }
+    ],
+    "authors": [
+      {
+        "id": 1,
+        "first_name": "Albert",
+        "last_name": "Einstein",
+        "photo_url": "http://www.publicdomainpictures.net/pictures/230000/velka/albert-einstein-1505932669R3h.jpg"
+      },
+      {
+        "id": 2,
+        "first_name": "Freud",
+        "last_name": "Sigmund",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sigmund_Freud_LIFE.jpg/220px-Sigmund_Freud_LIFE.jpg"
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "date": "04/03/2018",
+        "text": "some comment",
+        "appreciation_id": 1
+      }
+    ],
+    "moods": [
+      {
+        "id": 1,
+        "mood_name": "04/03/2018",
+        "mood_picto": "some comment"
+      }
+    ],
+    "appreciations": [
+      {
+        "id": 1,
+        "appreciation_name": "04/03/2018",
+        "appreciation_picto": "some comment"
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "category_name": "04/03/2018",
+        "category_description": "some comment"
+      }
+    ]
+  }
 }

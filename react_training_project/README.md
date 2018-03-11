@@ -79,7 +79,7 @@ yarn add eslint-config-airbnb-base eslint-loader eslint-plugin-flowtype --dev
 7. add semantic-ui
 yarn add semantic-ui-react
 yarn add semantic-ui-css
-Index.js :
+index.js :
 import 'semantic-ui-css/semantic.min.css';
 
 
